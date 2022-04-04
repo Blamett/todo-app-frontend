@@ -57,10 +57,9 @@
 
 #login, #register{
   font-family: 'Work Sans', sans-serif;
-  font-weight: 0, 400;
-  transition: 0.15s;
+  font-weight: 0, 400; 
+  transition: 0.15s; 
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
-  cursor: pointer;
   margin-right: 5px;
   margin-left: 5px;
   background-color: white;
