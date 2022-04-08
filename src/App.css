@@ -57,16 +57,17 @@
 
 #login, #register{
   font-family: 'Work Sans', sans-serif;
+  cursor: pointer;
   font-weight: 0, 400; 
   transition: 0.15s; 
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
   margin-right: 5px;
   margin-left: 5px;
-  background-color: white;
+  background-color: transparent;
   border-color: white;
-  border: 0.5;
-  color: #005db2;
-  border-radius: 5px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
   border-width: 1.5px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -75,7 +76,7 @@
 }
 
 #login:hover, #register:hover{
-  color: rgb(255, 255, 255);
-  background-color: transparent;
+  color: #005db2;
+  background-color: rgb(255, 255, 255);
   transition: 0.3s;
 }
